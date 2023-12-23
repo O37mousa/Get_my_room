@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Discover Your Perfect Space - Our Rooms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Start Nav bar -->
+      <div class="organiz-nav">
+        <span class="icon-logo"><ion-icon name="bed-outline"></ion-icon></span>
+        <h2 class="logo">Get My Room</h2>
+        <nav class="navigation">
+          <a href="#">Home</a>
+          <a href="#">Hotels</a>
+          <a href="#">contact us</a>
+          <button class="btnlogin-popup">Login</button>
+        </nav>
+      </div>
+      <!-- End nav bar -->
+
+      <!-- Start search bar -->
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search for rooms..."
+        />
+        <button class="search-button">Search</button>
+      </div>
+      <!-- End search bar -->
+
+      <!--Start title Header -->
+      <h1>Discover Your Perfect Space</h1>
+      <h2>Our Rooms</h2>
+    </header>
+    <!--Start title Header -->
+
+    <!-- Start Room boxes -->
+    <main>
+      <div class="room-container">
+        <div class="room">
+          <img
+            src="imgs/Baglioni-Hotel-Regina-penthouse-master (1).jpg"
+            alt="Cozy Single Room"
+          />
+          <h3 class="title-box">Cozy Single Room</h3>
+          <p>
+            Relax and unwind in our comfortable single room with all the
+            essentials for a peaceful stay.
+          </p>
+          <ul class="Detalis">
+            <li class="Detali">
+              <ion-icon class="icon" name="location-outline"></ion-icon>
+              <span>Roma</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="pricetags-outline"></ion-icon>
+              <span>$450 per night</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="person-outline"></ion-icon>
+              <span>single Occupancy</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="star-half-outline"></ion-icon>
+              <span>Rate:8/5</span>
+            </li>
+          </ul>
+          <button class="book-now" type="button">Book Now</button>
+        </div>
+        <div class="room">
+          <img
+            src="imgs/70-iq-hotel-roma-room-twin-double-01.jpg"
+            alt="Charming Double Room"
+          />
+          <h3 class="title-box">Charming Double Room</h3>
+          <p>
+            Share the experience with someone special in our spacious double
+            room, perfect for couples or friends.
+          </p>
+          <ul class="Detalis">
+            <li class="Detali">
+              <ion-icon class="icon" name="location-outline"></ion-icon>
+              <span>Roma</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="pricetags-outline"></ion-icon>
+              <span>$750 per night</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="people-outline"></ion-icon>
+              <span>Double Occupancy</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="star-half-outline"></ion-icon>
+              <span>Rate:9</span>
+            </li>
+          </ul>
+          <button class="book-now" type="button">Book Now</button>
+        </div>
+        <div class="room">
+          <img
+            src="imgs/Best+Hotels+in+Rome+with+a+View+-+Hotel+Palazzo+Manfredi.jpg"
+            alt="Luxurious Suite"
+          />
+          <h3 class="title-box">Luxurious Suite</h3>
+          <p>
+            Indulge in ultimate comfort and luxury in our elegant suite,
+            designed for those seeking an unforgettable stay.
+          </p>
+          <ul class="Detalis">
+            <li class="Detali">
+              <ion-icon class="icon" name="location-outline"></ion-icon>
+              <span>Roma</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="pricetags-outline"></ion-icon>
+              <span>$1200 per night</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="people-outline"></ion-icon>
+              <span>Up to 3 Guests</span>
+            </li>
+            <li class="Detali">
+              <ion-icon class="icon" name="star-half-outline"></ion-icon>
+              <span>Rate:9.5</span>
+            </li>
+          </ul>
+          <button class="book-now" type="button">Book Now</button>
+        </div>
+      </div>
+    </main>
+    <!-- End Room boxes -->
+
+    <!--footer section  -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="text-center">Get My Room</div>
+        <div class="text-center copyright">
+          &copy; 2023 All Rights Reserved.
+        </div>
+        <div class="social-media">
+          <ion-icon class="footer-logo" name="logo-facebook"></ion-icon>
+          <ion-icon class="footer-logo" name="logo-google"></ion-icon>
+          <ion-icon class="footer-logo" name="logo-instagram"></ion-icon>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End footer section  -->
+    <!-- start payment section  -->
+    <div class="payment-box">
+      <button type="button" class="close-button">X</button>
+
+      <form id="paymentForm">
+        <div class="field-group-1">
+          <ion-icon class="name-logo" name="person-circle"></ion-icon>
+          <label class="name-text" for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="field-group-2">
+          <ion-icon class="card-logo" name="card"></ion-icon>
+          <label class="card-text" for="cardNumber">Credit Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" required />
+        </div>
+
+        <div class="expiry">
+          <label for="expiryMonth">Expiry Month:</label>
+          <input type="number" id="expiryMonth" name="expiryMonth" required />
+
+          <label for="expiryYear">Expiry Year:</label>
+          <input type="number" id="expiryYear" name="expiryYear" required />
+        </div>
+
+        <label for="cvv">CVV/CVC:</label>
+        <input type="text" id="cvv" name="cvv" required />
+
+        <button type="submit">Submit Payment</button>
+      </form>
+    </div>
+    <div id="paymentOverlay"></div>
+    <script src="payment-box.js"></script>
+    <!-- End payment section  -->
+
+    <!-- Start Links for website for icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- End Links for website for icons -->
+  </body>
+</html>
